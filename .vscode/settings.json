@@ -1,11 +1,14 @@
 {
-  "cSpell.words": ["Vitesse"],
   "typescript.tsdk": "node_modules/typescript/lib",
-  "vite.autoStart": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "files.associations": {
-    "*.css": "postcss"
-  }
+  "editor.codeActionsOnSave": [
+    "source.sortImports",
+    "source.fixAll.eslint",
+  ],
+  // add @apply to css atDirectives
+  "css.customData": [
+    "./.vscode/css-data.json"
+  ],
+  "emmet.extensionsPath": [
+    "./.vscode/emmet"
+  ]
 }

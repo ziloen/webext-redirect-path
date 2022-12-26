@@ -12,11 +12,10 @@ function openOptionsPage() {
     <div>Popup</div>
     <SharedSubtitle />
 
-    <button class="btn mt-2" @click="openOptionsPage">
-      Open Options
-    </button>
+    <button class="btn mt-2" @click="openOptionsPage">Open Options</button>
     <div class="mt-2">
-      <span class="opacity-50">Storage:</span> {{ storageDemo }}
+      <span class="opacity-50">Storage:</span>
+      {{ storageDemo }}
     </div>
   </main>
 </template>
