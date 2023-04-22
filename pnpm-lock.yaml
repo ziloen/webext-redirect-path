@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0(vite@4.2.1)(vue@3.2.47)
   '@volar-plugins/prettyhtml':
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^2.0.0
+    version: 2.0.0
   '@vue/compiler-sfc':
     specifier: ^3.2.47
     version: 3.2.47
@@ -1277,8 +1277,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@volar-plugins/prettyhtml@1.1.0:
-    resolution: {integrity: sha512-u4ScpUV5Kmp2cqt7jT1HYs0uMvsC6oblrhyUX335Mk3gf5kQnYFQEWRKM/y2RDgrTVFRBUdkxdcW+SYcA4UtQA==}
+  /@volar-plugins/prettyhtml@2.0.0:
+    resolution: {integrity: sha512-1c9FPFml0kd3br8WiDW16NH1Ve0cbR0eqt1OpktMWYHUl+2ubMQUcF4TNSmAzoVog+Q2ANlZIqdBDjxti2U9lg==}
     peerDependencies:
       '@volar/language-service': '*'
     peerDependenciesMeta:
@@ -4683,7 +4683,7 @@ packages:
     dev: true
 
   /isarray@1.0.0:
-    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
     dev: true
 
   /isexe@1.1.2:
@@ -6576,7 +6576,7 @@ packages:
     resolution: {integrity: sha512-6uZQLGyUkNA4N+Zii9fYukmNu9PEA1F5rqcwXzN/3LtBjwl2dFBbVZ1Zyn08/CGkB4H440PIemdOQBt1Wvjbrg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      type-fest: 2.12.2
+      type-fest: 2.19.0
     dev: true
 
   /setimmediate@1.0.5:
@@ -7255,11 +7255,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /type-fest@2.12.2:
-    resolution: {integrity: sha512-qt6ylCGpLjZ7AaODxbpyBZSs9fCI9SkL3Z9q2oxMBQhs/uyY+VD8jHA8ULCGmWQJlBgqvO3EJeAngOHD8zQCrQ==}
-    engines: {node: '>=12.20'}
-    dev: true
-
   /type-fest@2.19.0:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
@@ -7649,7 +7644,7 @@ packages:
     dev: true
 
   /util-deprecate@1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
   /uuid@3.4.0:
