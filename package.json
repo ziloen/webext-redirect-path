@@ -35,7 +35,7 @@
     "@volar-plugins/prettyhtml": "^1.1.0",
     "@vue/compiler-sfc": "^3.2.47",
     "@vue/test-utils": "^2.3.2",
-    "@vueuse/core": "^9.13.0",
+    "@vueuse/core": "^10.6.1",
     "@ziloen/eslint-config": "^0.0.86",
     "@ziloen/eslint-config-format": "^0.0.86",
     "chokidar": "^3.5.3",
